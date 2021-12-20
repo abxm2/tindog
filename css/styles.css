@@ -295,7 +295,11 @@ p {
   }
 
   #cta {
-    padding: 8% 5% 15%;
+    padding: 8% 0 15%;
+  }
+
+  .cta-heading {
+    padding: 8% 10% 5%;
   }
   /* icon size 大小修改办法？ */
   /* .fab {
