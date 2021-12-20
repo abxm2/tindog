@@ -190,12 +190,35 @@ p {
 }
 
 @media (max-width: 1028px) {
+  p {
+    font-size: 3rem;
+  }
+
+  .big-heading {
+    font-weight: 900;
+    line-height: 1.5;
+    font-size: 5rem;
+    padding-top: 4rem;
+  }
+
   .navbar {
-    padding: 0 0 2rem;
+    padding: 4rem 0 2rem;
+  }
+
+  .navbar-brand {
+    font-size: 4rem;
+  }
+
+  .nav-link {
+    font-size: 3rem;
   }
 
   #title .container-fluid {
     text-align: center;
+  }
+
+  #title button {
+    font-size: 3rem;
   }
 
   .nav-item {
@@ -209,15 +232,75 @@ p {
     padding: 10% 0 0;
   }
 
+  /* feature */
+
+  .feature-title {
+    font-size: 3.5rem;
+  }
+
+  #features p {
+    font-size: 2.5rem;
+  }
+
+  .icon {
+    font-size: 8rem;
+  }
+
   .testimonial-text {
-    font-size: 2rem;
+    font-size: 6rem;
     line-height: 1.3;
   }
 
-  .section-heading {
-    font-size: 2rem;
-    line-height: 1.5;
+  .testimonial-image {
+    width: 40%;
   }
+
+  #testimonials em {
+    font-size: 2.5rem;
+  }
+
+  .press-logo {
+    width: 45%;
+  }
+  #pricing {
+    padding: 7% 10%;
+  }
+
+  #pricing h3 {
+    font-size: 4rem;
+  }
+
+  #pricing button {
+    font-size: 3rem;
+  }
+
+  .price-text {
+    font-size: 5rem;
+  }
+
+  .card {
+    padding: 5%;
+  }
+
+  .section-heading {
+    font-size: 4rem;
+  }
+
+  .cta-heading {
+    font-size: 5rem;
+  }
+
+  #cta button {
+    font-size: 3.5rem;
+  }
+
+  #cta {
+    padding: 8% 5% 15%;
+  }
+  /* icon size 大小修改办法？ */
+  /* .fab {
+    font-size: 4rem;
+  } */
 
   #title .container-fluid {
     padding: 0 10% 12%;
